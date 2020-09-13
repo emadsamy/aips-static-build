@@ -1118,6 +1118,7 @@ small {
     margin-left: auto;
     margin-right: auto;
     position: relative;
+    border-top: none;
   }
   .sidebar-link .link {
     border: none;
@@ -1144,7 +1145,10 @@ small {
     align-items: center;
     width: 47%;
   }
-
+  .sidebar-link:first-of-type,
+  .sidebar-link:nth-of-type(2) {
+    border-top: 1px solid #00000016;
+  }
   .program-content {
     width: 100%;
   }
